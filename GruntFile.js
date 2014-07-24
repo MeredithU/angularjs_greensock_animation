@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 					compass: false
 				},
 				files: {
-					'<%= project.assets %>/css/style.css':'<%= project.css %>',
+					'<%= project.assets %>/css/style.css':'<%= project.css %>'
 				}
 			}
 		},
