@@ -1,8 +1,9 @@
 {
   "name": "angularjs_animations",
+  "private": true,
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Angular animations project",
+  "main": "node server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +13,11 @@
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-contrib-sass": "^0.7.3"
+  },
+  "dependencies": {
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.7.3",
+    "express": "~4.7.2"
   }
 }
